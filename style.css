@@ -1,0 +1,23 @@
+* {
+    border: 1p solid black;
+}
+
+.gallery {
+    position: relative;
+    display: inline-block;
+    transition: 1s;
+
+}
+
+.large {
+    display: none;
+    position: absolute;
+    width: 160px;
+    transition: 1s;
+}
+
+.gallery:hover img {
+    height: 200px;
+    width: 300px;
+    transition: 1s;
+}
